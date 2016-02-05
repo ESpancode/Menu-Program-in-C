@@ -1,32 +1,21 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# include <stdio.h>
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
+main() 
+{
+ printf("welcome to MegaBite\n");
+ printf("hamburger\n");
+ printf("vegiburger\n");
+ printf("chicken fillets\n");
+ printf("kids meals\n");
+ printf("fish\n");
+ printf("salad\n");
+ printf("choose sides\n");
+ printf("cheese\n");
+ printf("ketchup\n");
+ printf("dill\n");
+ printf("choose drink\n");
+ printf("cola\n");
+ printf("lemonade\n");
+ printf("water\n");
+ return 0;
+}
